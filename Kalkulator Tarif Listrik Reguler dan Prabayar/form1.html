@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Tarif Listrik Reguler</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container prabayar-container">
+      <h1>Kalkulator Tarif Listrik Prabayar</h1>
+      <form action="hitung1.php" method="post">
+        <label for="daya">Batas Daya:</label>
+        <select name="daya" id="daya" required>
+          <option value="">-- Pilih Batas Daya --</option>
+          <option value="450">450 VA</option>
+          <option value="900">900 VA</option>
+          <option value="1200">1200 VA</option>
+        </select>
+
+        <label for="harga_beli">Harga beli:</label>
+        <input type="number" name="harga_beli" id="harga_beli" required />
+
+        <label for="biaya_administrasi">Biaya Administrasi:</label>
+        <input
+          type="number"
+          name="biaya_administrasi"
+          id="biaya_administrasi"
+          required
+        />
+
+        <label for="biaya_materai">Biaya Materai:</label>
+        <input
+          type="number"
+          name="biaya_materai"
+          id="biaya_materai"
+          value="0"
+          required
+        />
+
+        <button class="prabayar-button" type="submit" name="hitung">
+          Hitung Tarif
+        </button>
+      </form>
+
+      <div class="hyperteks">
+        <a href="form.html">klik disini untuk menghitung Listrik Reguler </a>
+      </div>
+    </div>
+  </body>
+</html>
