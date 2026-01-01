@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Nilai</title>
+    <link rel="stylesheet" href="Input.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-utama">
+      <h1>SELAMAT DATANG</h1>
+      <hr class="garis-pemisah" />
+    </header>
+
+    <nav class="navigasi-atas">
+      <a href="InputNilai.html"
+        ><button class="tombol-navigasi">Input Data Nilai</button></a
+      >
+      <a href="DaftarNilai.html"
+        ><button class="tombol-navigasi">Daftar Nilai</button></a
+      >
+      <a href="FormLogin.html"
+        ><button class="tombol-navigasi tombol-keluar">Keluar</button></a
+      >
+    </nav>
+    <hr class="garis-pemisah" />
+
+    <main class="konten-utama-form">
+      <fieldset class="kotak-form">
+        <legend class="judul-form"><h2>Form Input Nilai Mahasiswa</h2></legend>
+        <form action="#" method="POST">
+          <div class="bottom grup-input">
+            <label for="nim">NIM</label>
+            <input
+              type="text"
+              id="nim"
+              name="nim"
+              placeholder="Masukan NIM"
+              required
+            />
+          </div>
+
+          <div class="bottom grup-input">
+            <label for="nama">Nama</label>
+            <input
+              class="inputNama"
+              type="text"
+              id="nama"
+              name="nama"
+              placeholder="Masukan Nama Lengkap"
+              required
+            />
+          </div>
+
+          <div class="bottom grup-input grup-radio">
+            <label>Jenis Kelamin</label>
+            <div class="pilihan-radio">
+              <input
+                type="radio"
+                id="laki_laki"
+                name="jenis_kelamin"
+                value="L"
+                required
+              />
+              <label for="laki_laki">Laki-Laki</label>
+              <input
+                type="radio"
+                name="jenis_kelamin"
+                id="perempuan"
+                value="P"
+              />
+              <label for="perempuan">Perempuan</label>
+            </div>
+          </div>
+
+          <div class="bottom grup-input">
+            <label for="jurusan">Jurusan</label>
+            <select class="jurusan" name="jurusan" id="jurusan" required>
+              <option value="">Pilih Jurusan</option>
+              <option value="teknik_informatika">Teknik Informatika</option>
+              <option value="sistem_informasi">Sistem Informasi</option>
+              <option value="manajemen_informatika">
+                Manajemen Informatika
+              </option>
+            </select>
+          </div>
+
+          <div class="bottom grup-input">
+            <label for="nilai_tugas">Nilai Tugas</label>
+            <input
+              class="inputNilai"
+              type="number"
+              id="nilai_tugas"
+              name="nilai_tugas"
+              placeholder="Nilai Tugas"
+              min="0"
+              max="100"
+              required
+            />
+          </div>
+
+          <div class="bottom grup-input">
+            <label for="nilai_UTS">Nilai UTS</label>
+            <input
+              class="inputNilai"
+              type="number"
+              id="nilai_UTS"
+              name="nilai_UTS"
+              placeholder="Nilai UTS"
+              min="0"
+              max="100"
+              required
+            />
+          </div>
+
+          <div class="bottom grup-input">
+            <label for="nilai_UAS">Nilai UAS</label>
+            <input
+              class="inputNilai"
+              type="number"
+              id="nilai_UAS"
+              name="nilai_UAS"
+              placeholder="Nilai UAS"
+              min="0"
+              max="100"
+              required
+            />
+          </div>
+
+          <div class="grup-tombol-aksi">
+            <button type="submit" class="tombol-aksi tombol-simpan">
+              Simpan
+            </button>
+            <button type="reset" class="tombol-aksi tombol-reset">Reset</button>
+          </div>
+        </form>
+      </fieldset>
+    </main>
+  </body>
+</html>

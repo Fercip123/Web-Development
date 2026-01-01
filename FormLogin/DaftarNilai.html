@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar Nilai</title>
+    <link rel="stylesheet" href="tabel.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-utama-daftar">
+      <h1>DAFTAR NILAI RATA-RATA MAHASISWA AKHIR</h1>
+      <hr class="garis-pemisah" />
+    </header>
+
+    <nav class="navigasi-atas-daftar">
+      <a href="InputNilai.html"
+        ><button class="tombol-navigasi">Input Data Nilai</button></a
+      >
+      <a href="DaftarNilai.html"
+        ><button class="tombol-navigasi">Daftar Nilai</button></a
+      >
+      <a href="FormLogin.html"
+        ><button class="tombol-navigasi tombol-keluar">Keluar</button></a
+      >
+    </nav>
+    <hr class="garis-pemisah" />
+
+    <main class="konten-tabel">
+      <table class="tabel-nilai">
+        <thead>
+          <tr class="baris-header-utama">
+            <td colspan="8" class="sel-header-utama">Data Nilai Mahasiswa</td>
+          </tr>
+          <tr>
+            <th rowspan="2">NIM</th>
+            <th rowspan="2">NAMA</th>
+            <th rowspan="2">JENIS KELAMIN</th>
+            <th rowspan="2">JURUSAN</th>
+            <th colspan="3">NILAI</th>
+            <th rowspan="2">Rata-Rata</th>
+          </tr>
+          <tr class="baris-sub-header-nilai">
+            <th>TUGAS</th>
+            <th>UTS</th>
+            <th>UAS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>190303000</td>
+            <td>Jamaludin</td>
+            <td>Laki - Laki</td>
+            <td>Teknik Informatika</td>
+            <td>80</td>
+            <td>60</td>
+            <td>85</td>
+            <td class="ratacolor">80,3</td>
+          </tr>
+          <tr>
+            <td>190203041</td>
+            <td>Ratna</td>
+            <td>Perempuan</td>
+            <td>Teknik Informatika</td>
+            <td>90</td>
+            <td>90</td>
+            <td>95</td>
+            <td class="ratacolor">90,9</td>
+          </tr>
+          <tr>
+            <td>190203041</td>
+            <td>Kamarudin</td>
+            <td>Laki - Laki</td>
+            <td>Manajemen Informatika</td>
+            <td>70</td>
+            <td>80</td>
+            <td>86</td>
+            <td class="ratacolor">80,7</td>
+          </tr>
+          <tr>
+            <td>190203041</td>
+            <td>Wan</td>
+            <td>Perempuan</td>
+            <td>Sistem Informasi</td>
+            <td>80</td>
+            <td>90</td>
+            <td>95</td>
+            <td class="ratacolor">90,6</td>
+          </tr>
+          <tr>
+            <td>190203041</td>
+            <td>Ziah</td>
+            <td>Laki - Laki</td>
+            <td>Sistem Informasi</td>
+            <td>90</td>
+            <td>90</td>
+            <td>90</td>
+            <td class="ratacolor">98,10</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
