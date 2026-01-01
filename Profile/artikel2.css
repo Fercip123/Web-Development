@@ -1,0 +1,100 @@
+body {
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333;
+}
+.full-width-header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  margin-top: 0;
+  border-radius: 0;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-section {
+  background: linear-gradient(to right, #2563eb, #4f46e5);
+  color: #ffffff;
+  padding: 24px 32px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.profile-photo {
+  flex-shrink: 0;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  object-fit: cover;
+}
+.nav-link {
+  color: #555;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+.nav-link:hover {
+  background-color: #e2e8f0;
+  color: #333;
+}
+.nav-link:active {
+  background-color: #a3a8ad;
+  color: #333;
+}
+.myprofile {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: #666;
+}
+.judul {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 1rem;
+  padding: 10px;
+  text-align: left;
+}
+.article-grid {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  height: auto;
+  width: auto;
+  margin-left: 12px;
+  align-items: flex-start;
+  max-width: 1200px;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.article-grid img {
+  border-radius: 1rem;
+}
+.paragraf {
+  padding-top: 20px;
+}
