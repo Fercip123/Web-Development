@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Transaksi Rawat Inap</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>FORM RAWAT INAP</h2>
+      <form id="formRawatInap">
+        <div class="formgroup">
+          <label for="noPasien">No Pasien</label>
+          <input type="text" id="noPasien" name="noPasien" />
+        </div>
+
+        <div class="formgroup">
+          <label for="namaPasien">Nama Pasien</label>
+          <input type="text" id="namaPasien" name="namaPasien" />
+        </div>
+
+        <div class="formgroup">
+          <label for="kodeKamar">Kode Kamar</label>
+          <select id="kodeKamar" name="kodeKamar">
+            <option value="Ekonomi">Ekonomi</option>
+            <option value="VIP">VIP</option>
+            <option value="VVIP">VVIP</option>
+          </select>
+        </div>
+
+        <div class="formgroup">
+          <label for="lamaRawatInap">Lama Rawat Inap</label>
+          <input
+            type="number"
+            id="lamaRawatInap"
+            name="lamaRawatInap"
+            min="1"
+          />
+        </div>
+
+        <button type="button" id="hitungBtn">Hitung</button>
+
+        <div class="formgroup outputgroup">
+          <label for="totalBayar">TOTAL</label>
+          <input type="text" id="totalBayar" name="totalBayar" readonly />
+        </div>
+      </form>
+
+      <div id="outputData"></div>
+    </div>
+
+    <script src="calculate.js"></script>
+  </body>
+</html>
