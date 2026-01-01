@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Diskon & Pajak</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kalkulator Diskon & Pajak</h1>
+      <p>Hitung total biaya belanja Anda dengan diskon dan pajak!</p>
+
+      <form action="hitung_diskon.php" method="post">
+        <div class="form-group">
+          <label for="harga_produk">Harga Produk:</label>
+          <input
+            type="number"
+            id="harga_produk"
+            name="harga_produk"
+            min="0"
+            step="any"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="jumlah_produk">Jumlah Produk:</label>
+          <input
+            type="number"
+            id="jumlah_produk"
+            name="jumlah_produk"
+            min="1"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label>Jenis Pelanggan:</label>
+          <div class="radio-group">
+            <input
+              type="radio"
+              id="pelanggan_biasa"
+              name="jenis_pelanggan"
+              value="biasa"
+              checked
+            />
+            <label for="pelanggan_biasa">Pelanggan Biasa</label>
+
+            <input
+              type="radio"
+              id="pelanggan_member"
+              name="jenis_pelanggan"
+              value="member"
+            />
+            <label for="pelanggan_member">Pelanggan Member</label>
+          </div>
+        </div>
+
+        <button type="submit" name="hitung">Hitung Total</button>
+      </form>
+
+      <div class="result-area">
+        <p>Hasil perhitungan akan muncul di sini.</p>
+      </div>
+    </div>
+  </body>
+</html>

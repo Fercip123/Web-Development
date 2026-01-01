@@ -1,0 +1,117 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f4f8; /* Light gray-blue background */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  color: #1a237e; /* Dark blue heading */
+  margin-bottom: 10px;
+  font-size: 2.2em;
+}
+
+p {
+  text-align: center;
+  color: #616161;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+}
+
+input[type="number"] {
+  width: calc(100% - 24px);
+  padding: 12px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 1.1em;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #3f51b5; /* Indigo on focus */
+  outline: none;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.radio-group label {
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.result-area {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px dashed #7986cb;
+  border-radius: 8px;
+  background-color: #e8eaf6;
+  text-align: left;
+}
+
+.result-area p {
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #1a237e;
+  text-align: left;
+}
+
+.result-area strong {
+  color: #d32f2f;
+  font-size: 1.1em;
+}
+
+.error {
+  color: #e53935;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
