@@ -83,5 +83,5 @@ Buka: `http://localhost/mahasiswa/login.php`
 - **Flash Messages** notifikasi sukses/error
 
 ## Screenshot
-![Dashboard]<img width="1919" height="909" alt="Screenshot 2026-02-25 214155" src="https://github.com/user-attachments/assets/44a4c8b5-a6d7-4ec2-b256-f5193b299584" />
-![Login]<img width="1919" height="906" alt="Screenshot 2026-02-25 214144" src="https://github.com/user-attachments/assets/44ff9cfb-3689-4dc2-8e81-e3fb4edd13c3" />
+*Dashboard*<img width="1919" height="909" alt="Screenshot 2026-02-25 214155" src="https://github.com/user-attachments/assets/44a4c8b5-a6d7-4ec2-b256-f5193b299584" />
+*Login*<img width="1919" height="906" alt="Screenshot 2026-02-25 214144" src="https://github.com/user-attachments/assets/44ff9cfb-3689-4dc2-8e81-e3fb4edd13c3" />
