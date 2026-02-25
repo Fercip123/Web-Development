@@ -81,3 +81,5 @@ Buka: `http://localhost/mahasiswa/login.php`
 - **Manajemen User** dengan bcrypt password
 - **Responsive** Bootstrap 5 + sidebar mobile-friendly
 - **Flash Messages** notifikasi sukses/error
+
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/4a739716-de31-48cc-8e44-d170163f1c9b" />
